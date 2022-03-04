@@ -1,0 +1,15 @@
+# @package _global_
+
+defaults:
+  - override /actor: transformer
+
+lr: .0001
+actor:
+  embed_dim: 512
+  dim_ff: 1024
+  n_head: 8
+  n_blocks: 6
+
+lr_sched: linear_warmup
+weight_decay: .0001
+warmup_steps: 30000

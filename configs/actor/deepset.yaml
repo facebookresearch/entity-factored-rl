@@ -1,0 +1,2 @@
+_target_: rl_modules.models.actor_deepset
+agg: sum

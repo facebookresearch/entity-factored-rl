@@ -1,0 +1,10 @@
+# @package _global_
+
+env_name: Fetch2PushDense-v1
+r_scale: 5
+n_epochs: 150
+polyak: 0.99
+exp_schedule:
+  - 75
+  - 125 
+  - .01

@@ -1,0 +1,10 @@
+# @package _global_
+
+env_name: Fetch1Switch1PushDense-v1
+r_scale: 5
+n_epochs: 150
+polyak: 0.99
+exp_schedule:
+  - 60
+  - 100
+  - .01

@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - override /actor: transformer
+  - override /critic: mlp
+
+optim_actor:
+  lr: 0.0001

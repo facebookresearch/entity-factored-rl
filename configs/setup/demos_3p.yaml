@@ -1,0 +1,7 @@
+# @package _global_
+
+env_name: Fetch3Push-v1
+init_trajs: ./data/init_trajs_Fetch3Push-v1_3000.npz
+r_scale: 1
+n_epochs: 100
+n_init_steps: 100

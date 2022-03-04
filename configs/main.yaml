@@ -1,0 +1,43 @@
+defaults:
+  - actor: mlp
+  - critic: mlp
+
+env_name: Fetch1Push-v1
+n_epochs: 50
+n_cycles: 50
+n_batches: 40
+save_interval: 5
+seed: 123
+num_workers: 16
+replay_strategy: future
+clip_return: 50
+noise_eps: 0.2
+random_eps: 0.3
+exp_schedule: null
+buffer_size: 1000000
+replay_k: 4
+clip_obs: 200
+batch_size: 2048  # 256 * 8. MPI version had effectively a larger batch size due to multiple workers.
+gamma: 0.98
+action_l2: 1
+optim_actor:
+  _target_: torch.optim.Adam
+  lr: 0.001
+  weight_decay: 0
+optim_critic:
+  _target_: torch.optim.Adam
+  lr: 0.001
+  weight_decay: 0
+warmup_actor: 0
+warmup_critic: 0
+polyak: 0.95
+n_test_eps: 100
+clip_range: 5
+demo_length: 20
+cuda: True
+num_rollouts: 1
+init_trajs: null
+n_init_steps: 0
+norm_reward: False
+min_samples: 0
+r_scale: 1

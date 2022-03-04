@@ -1,0 +1,12 @@
+defaults:
+  - actor: mlp
+
+env_name: Fetch3Push-v1
+lr: 0.001
+data_path: ./data/rl_expert_Fetch3Push-v1_3000.npz
+n_steps: 60000
+device: cuda
+clip_range: 5
+lr_sched: null
+batch_size: 128
+seed: 0

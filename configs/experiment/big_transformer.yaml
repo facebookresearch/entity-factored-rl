@@ -1,0 +1,27 @@
+# @package _global_
+
+defaults:
+  - override /actor: transformer
+  - override /critic: transformer
+
+lr: .0001
+optim_actor:
+  lr: ${lr}
+optim_critic:
+  lr: ${lr}
+
+actor:
+  embed_dim: 512
+  dim_ff: 1024
+  n_head: 8
+  n_blocks: 6
+
+critic:
+  embed_dim: 512
+  dim_ff: 1024
+  n_head: 8
+  n_blocks: 6
+
+warmup: 0
+warmup_actor: ${warmup}
+warmup_critic: ${warmup}

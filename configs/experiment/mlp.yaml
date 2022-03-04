@@ -1,0 +1,5 @@
+# @package _global_
+
+defaults:
+  - override /actor: mlp
+  - override /critic: mlp

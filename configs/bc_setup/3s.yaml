@@ -1,0 +1,5 @@
+# @package _global_
+
+env_name: Fetch3Switch-v1
+num_demos: 1000
+data_path: ./data/rl_expert_Fetch3Switch-v1_${num_demos}.npz

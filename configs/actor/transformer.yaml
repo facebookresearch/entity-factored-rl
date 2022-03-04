@@ -1,0 +1,7 @@
+_target_: rl_modules.models.actor_tfm
+pos_enc: False
+embed_dim: 256
+dim_ff: 256
+n_head: 4
+n_blocks: 2
+dropout_p: 0.0

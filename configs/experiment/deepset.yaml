@@ -1,0 +1,5 @@
+# @package _global_
+
+defaults:
+  - override /actor: deepset
+  - override /critic: deepset

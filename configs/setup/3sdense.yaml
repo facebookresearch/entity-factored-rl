@@ -1,0 +1,9 @@
+# @package _global_
+
+env_name: Fetch3SwitchDense-v1
+r_scale: 5
+n_epochs: 150
+exp_schedule:
+  - 100
+  - 150 
+  - .01

@@ -1,0 +1,5 @@
+# @package _global_
+
+env_name: Fetch1Push-v1
+r_scale: 1
+n_epochs: 50

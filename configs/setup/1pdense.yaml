@@ -1,0 +1,4 @@
+# @package _global_
+
+env_name: Fetch1PushDense-v1
+r_scale: 5

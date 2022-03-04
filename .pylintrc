@@ -1,0 +1,5 @@
+[TYPECHECK]
+generated-members=numpy.*,torch.*,wandb.*,pytorch_lightning.*,pl.*
+
+[MESSAGES CONTROL]
+disable=invalid-name

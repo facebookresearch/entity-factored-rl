@@ -1,0 +1,10 @@
+# @package _global_
+
+env_name: FetchStack2DenseStitch-v1
+r_scale: 5
+n_epochs: 250
+polyak: 0.99
+exp_schedule:
+  - 75
+  - 150 
+  - .01

@@ -1,0 +1,15 @@
+# @package _global_
+
+defaults:
+  - override /actor: transformer
+  - override /critic: transformer
+
+lr: .0001
+optim_actor:
+  lr: ${lr}
+optim_critic:
+  lr: ${lr}
+
+warmup: 0
+warmup_actor: ${warmup}
+warmup_critic: ${warmup}

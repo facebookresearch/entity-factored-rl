@@ -1,0 +1,6 @@
+# @package _global_
+
+env_name: Fetch1PushDense-v1
+init_trajs: ./data/init_trajs_Fetch1PushDense-v1_1000.npz
+r_scale: 5
+n_init_steps: 100
